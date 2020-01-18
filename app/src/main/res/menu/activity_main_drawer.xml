@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kanji"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Kanji" />
+        <item
+            android:id="@+id/nav_kotoba"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Kosa Kata" />
+    </group>
+
+    <item android:title="Latihan">
+        <menu>
+            <item
+                android:id="@+id/practice_kanji"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kanji" />
+        </menu>
+    </item>
+
+</menu>

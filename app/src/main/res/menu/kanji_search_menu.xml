@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opt_all"
+        android:orderInCategory="400"
+        android:title="Semua" />
+    <item
+        android:id="@+id/opt_onkun"
+        android:orderInCategory="400"
+        android:title="On'yomi &amp; Kun'yomi" />
+    <item
+        android:id="@+id/opt_onyomi"
+        android:orderInCategory="400"
+        android:title="On'yomi" />
+    <item
+        android:id="@+id/opt_kunyomi"
+        android:orderInCategory="400"
+        android:title="Kun'yomi" />
+    <item
+        android:id="@+id/opt_meaning"
+        android:orderInCategory="400"
+        android:title="Arti"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opt_level5"
+        android:orderInCategory="400"
+        android:title="Level N5"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opt_level4"
+        android:orderInCategory="400"
+        android:title="Level N4"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opt_level3"
+        android:orderInCategory="400"
+        android:title="Level N3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opt_level2"
+        android:orderInCategory="400"
+        android:title="Level N2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opt_level1"
+        android:orderInCategory="400"
+        android:title="Level N1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opt_all_level"
+        android:orderInCategory="400"
+        android:title="Semua Level"
+        app:showAsAction="never" />
+</menu>
